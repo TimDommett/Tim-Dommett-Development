@@ -1,0 +1,218 @@
+.skills-logos {
+  width: 250px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding-left: 2.5%;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+/* Move into transitions.css */
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in-delayed {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+.threed:hover
+{
+        box-shadow:
+                1px 1px #C3C3C3,
+                2px 2px #C3C3C3,
+                3px 3px #C3C3C3;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        transition:all 0.3s ease;
+}
+
+
+.grow:hover
+{
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+        transition:all 0.3s ease;
+
+        cursor: pointer;
+}
+
+.border-inset:hover
+{
+        box-shadow: inset 0 0 0 3px #53a7ea;
+        transition:all 0.3s ease;
+}
+
+
+
+/* hover for skills */
+.overlay {
+  /* position: absolute; */
+  top: 100%;
+  /* bottom: 0;
+  left: 0;
+  right: 0; */
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+
+
+/* navigation menu */
+
+@keyframes checked-anim {
+    50% {
+        width: 3000px;
+        height: 3000px;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+@keyframes not-checked-anim {
+    0% {
+        width: 3000px;
+        height: 3000px;
+    }
+}
+li, a {
+    margin: 75px 0 -55px 0;
+    color: #03A9F4;
+    font: 14pt "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    outline: 0;
+    display: none;
+}
+li {
+    /* width: 230px;
+    text-indent: 56px; */
+    width: 100%;
+      text-indent: 90%;
+    }
+a:focus {
+    display: block;
+    color: #333;
+    background-color: #eee;
+    transition: all .5s;
+}
+
+#trigger, #burger, #burger:before, #burger:after {
+    position: fixed;
+    top: 40px;
+    right: 25px;
+    background: #03A9F4;
+    width: 30px;
+    height: 5px;
+    transition: .2s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+#trigger {
+
+    height: 25px;
+    background: none;
+}
+#burger:before {
+    content: " ";
+    top: 20px;
+    right: 25px;
+}
+#burger:after {
+    content: " ";
+    top: 30px;
+    right: 25px;
+}
+#menu-toggle:checked + #trigger + #burger {
+    top: 35px;
+    transform: rotate(180deg);
+    transition: transform .2s ease;
+}
+
+#menu-toggle:checked + #trigger + #burger:before {
+    width: 20px;
+    top: -2px;
+    right: 18px;
+    transform: rotate(45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu-toggle:checked + #trigger + #burger:after {
+    width: 20px;
+    top: 2px;
+    right: 18px;
+    transform: rotate(-45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu {
+    position: fixed;
+    margin: 0; padding: 0;
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border-bottom-left-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    animation: not-checked-anim .2s both;
+    transition: .2s;
+    right: 0;
+}
+#menu-toggle:checked + #trigger + #burger + #menu {
+    animation: checked-anim 1s ease both;
+}
+#menu-toggle:checked + #trigger ~ #menu > li, a {
+    display: block;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    display: none;
+}

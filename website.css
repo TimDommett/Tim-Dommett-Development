@@ -149,6 +149,39 @@ p {
 
 
 
+
+.updown {
+  animation: MoveUpDown 1s linear infinite;
+  transform: rotate(45deg);
+  left: 50%;
+
+
+  /* position: absolute; */
+  /* left: 0;
+  bottom: 0; */
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+.vert-move {
+    -webkit-animation: mover 0.7s infinite  alternate;
+    animation: mover 0.7s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); transform: translateX(2px);}
+}
+
+
+
 /* hover for skills */
 .overlay {
   /* position: absolute; */
@@ -171,7 +204,7 @@ p {
   color: black;
   font-size: 20px;
   position: absolute;
-  top: 102%;
+  top: 112%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -364,7 +397,9 @@ a:focus {
   justify-content: center;
   /* background-color: #0e242d; */
   height: 100vh;
-  padding-top: 30%;
+  /* padding-top: 30%; */
+  padding-top: 13%;
+  padding-left: 10%;
 }
 
 /* #button {

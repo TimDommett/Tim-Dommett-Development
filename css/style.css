@@ -34,6 +34,11 @@ h1 {
   height: 100%;
   position: relative;
   overflow: hidden;
+
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 .wrap .bg {
   width: 100%;

@@ -69,6 +69,29 @@ p {
   font-style: normal;
   font-family: initial;
 }
+
+/* Project detail pages */
+.project-hero-image {
+  float: left;
+  width: 30%;
+  padding: 2.5%;
+}
+
+.project-detail-title {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.project-title-description {
+  padding-top: 50px;
+  text-align: justify;
+}
+
+.project-detail-links {
+  display: block;
+  color: black;
+  text-align: center;
+}
 /* Move into transitions.css */
 
 .fade-in {

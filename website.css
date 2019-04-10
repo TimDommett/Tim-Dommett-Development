@@ -10,7 +10,7 @@ p {
 }
 
 .parrallax-spacer {
-  padding-top: 100%;
+  padding-top: 70%;
 }
 
 .non-parrallax {
@@ -73,7 +73,7 @@ p {
 /* Project detail pages */
 .project-hero-image {
   float: left;
-  width: 30%;
+  width: 40%;
   padding: 2.5%;
 }
 
@@ -171,7 +171,7 @@ p {
   color: black;
   font-size: 20px;
   position: absolute;
-  top: 112%;
+  top: 102%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -339,3 +339,35 @@ a:focus {
   padding: 16px 32px;
   font-size: x-large;
 }
+
+/* auto scroll button */
+
+#button {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 4px 4px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+#button:hover {
+  border-bottom-width: 8px;
+  border-right-width: 8px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0e242d; */
+  height: 100vh;
+  padding-top: 30%;
+}
+
+/* #button {
+  height: 100vh; */
+  /* background-color: #256347; */
+/* } */

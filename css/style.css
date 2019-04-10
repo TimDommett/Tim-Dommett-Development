@@ -47,7 +47,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center;
+  background: url("https://gdurl.com/JHFu") no-repeat center center;
   background-size: cover;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -77,6 +77,6 @@ h1 {
   width: auto;
   float: none;
   padding: 0 10px;
-  top: 187%;
+  top: 236%;
 
 }

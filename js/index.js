@@ -79,3 +79,9 @@ function initSmoothScrolling(container,animation){
 		$(this).addClass(cl);
 	});
 }
+
+$("#button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#scroll-stop").offset().top
+    }, 2000);
+});

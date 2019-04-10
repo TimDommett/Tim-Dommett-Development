@@ -16,9 +16,11 @@ p {
 .non-parrallax {
   background-color: white;
 }
-/* .page-dioscription {
-  top-padding: 100%;
-} */
+.page-dioscription {
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: large;
+  }
 
 .parrallax {
   width: 100%;
@@ -34,6 +36,13 @@ p {
 .column {
   float: left;
   width: 30%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.column-two {
+  float: left;
+  width: 45.125%;
   margin-left: 2.5%;
   margin-bottom: 2.5%;
 }
@@ -253,6 +262,7 @@ a:focus {
     animation: not-checked-anim .2s both;
     transition: .2s;
     right: 0;
+    top: 0;
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;

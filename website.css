@@ -47,13 +47,19 @@ p {
 
 .project-title {
   text-align: center;
+  color: black;
+  font-size: medium;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  line-height: 1;
 }
 
-.nav-link:hover {
-  cursor: pointer;
+
+
+.project-link {
+  font-style: normal;
+  font-family: initial;
 }
-
-
 /* Move into transitions.css */
 
 .fade-in {
@@ -141,6 +147,7 @@ p {
   text-align: center;
 
 }
+
 
 
 
@@ -255,6 +262,13 @@ a:focus {
 }
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.nav-info {
+  text-indent: 10%;
 }
 
 /* projects detail */

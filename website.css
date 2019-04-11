@@ -409,10 +409,12 @@ a:focus {
 }
 
 .testimonial {
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Karla', sans-serif;
   font-size: xx-large;
   padding: 50px;
   text-align: justify;
+  font-style: italic;
 }
 
 /* #button {

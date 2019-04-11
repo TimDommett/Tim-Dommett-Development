@@ -91,6 +91,8 @@ p {
   display: block;
   color: black;
   text-align: center;
+  text-indent: 0;
+
 }
 /* Move into transitions.css */
 

@@ -95,6 +95,8 @@ p {
 .project-title-description {
   padding-top: 50px;
   text-align: justify;
+  padding-right: 10%;
+  font-size: larger;
 }
 
 .project-detail-links {

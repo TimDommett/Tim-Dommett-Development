@@ -402,6 +402,13 @@ a:focus {
   padding-left: 10%;
 }
 
+.testimonial {
+  font-family: 'Lobster Two', cursive;
+  font-size: xx-large;
+  padding: 50px;
+  text-align: justify;
+}
+
 /* #button {
   height: 100vh; */
   /* background-color: #256347; */

@@ -70,6 +70,10 @@ p {
   font-family: initial;
 }
 
+.error-fix {
+  color: white;
+}
+
 /* Project detail pages */
 .project-hero-image {
   float: left;

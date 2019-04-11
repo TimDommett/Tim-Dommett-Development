@@ -26,8 +26,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-  lFollowY = (10 * lMouseY) / 100;
+  lFollowX = (40 * lMouseX) / 40; // 100 : 12 = lMouxeX : lFollow
+  lFollowY = (30 * lMouseY) / 40;
 
 });
 
@@ -60,8 +60,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXone = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYone = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXone = (20 * lMouseXone) / 210; // 100 : 12 = lMouxeX : lFollow
-  lFollowYone = (10 * lMouseYone) / 210;
+  lFollowXone = (40 * lMouseXone) / 150; // 100 : 12 = lMouxeX : lFollow
+  lFollowYone = (30 * lMouseYone) / 150;
 
 });
 
@@ -96,8 +96,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXtwo = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYtwo = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXtwo = (20 * lMouseXtwo) / 180; // 100 : 12 = lMouxeX : lFollow
-  lFollowYtwo = (10 * lMouseYtwo) / 180;
+  lFollowXtwo = (40 * lMouseXtwo) / 120; // 100 : 12 = lMouxeX : lFollow
+  lFollowYtwo = (30 * lMouseYtwo) / 120;
 
 });
 
@@ -131,8 +131,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXthree = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYthree = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXthree = (20 * lMouseXthree) / 150; // 100 : 12 = lMouxeX : lFollow
-  lFollowYthree = (10 * lMouseYthree) / 150;
+  lFollowXthree = (40 * lMouseXthree) / 90; // 100 : 12 = lMouxeX : lFollow
+  lFollowYthree = (30 * lMouseYthree) / 90;
 
 });
 
@@ -196,8 +196,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXfour = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYfour = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXfour = (20 * lMouseXfour) / 120; // 100 : 12 = lMouxeX : lFollow
-  lFollowYfour = (10 * lMouseYfour) / 120;
+  lFollowXfour = (40 * lMouseXfour) / 60; // 100 : 12 = lMouxeX : lFollow
+  lFollowYfour = (30 * lMouseYfour) / 60;
 
 });
 moveBackgroundFour();
@@ -229,8 +229,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXfive = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYfive = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXfive = (20 * lMouseXfive) / 90; // 100 : 12 = lMouxeX : lFollow
-  lFollowYfive = (10 * lMouseYfive) / 90;
+  lFollowXfive = (40 * lMouseXfive) / 30; // 100 : 12 = lMouxeX : lFollow
+  lFollowYfive = (30 * lMouseYfive) / 30;
 
 });
 moveBackgroundFive();
@@ -262,8 +262,8 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXsix = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYsix = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXsix = (20 * lMouseXsix) / 60; // 100 : 12 = lMouxeX : lFollow
-  lFollowYsix = (10 * lMouseYsix) / 60;
+  lFollowXsix = (40 * lMouseXsix) / 1; // 100 : 12 = lMouxeX : lFollow
+  lFollowYsix = (30 * lMouseYsix) / 1;
 
 });
 moveBackgroundSix();

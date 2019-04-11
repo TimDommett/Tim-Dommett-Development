@@ -92,10 +92,10 @@ p {
 }
 
 .project-detail-links {
-  display: block;
-  color: black;
-  text-align: center;
-  text-indent: 0;
+  padding: 50px;
+  text-align: justify;
+  font-size: large;
+  padding-right: 10%;
 
 }
 /* Move into transitions.css */
@@ -409,12 +409,13 @@ a:focus {
 }
 
 .testimonial {
-  /* font-family: 'Lobster', cursive; */
-  font-family: 'Karla', sans-serif;
-  font-size: x-large;
-  padding: 50px;
-  text-align: justify;
-  font-style: italic;
+  /* font-family: 'Lobster', cursive;  */
+      /* font-family: 'Karla', sans-serif; */
+      font-size: x-large;
+      padding: 50px;
+      text-align: justify;
+      font-style: italic;
+      padding-bottom: 17%;
 }
 
 /* #button {

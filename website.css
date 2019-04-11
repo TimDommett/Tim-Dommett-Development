@@ -74,6 +74,11 @@ p {
   color: white;
 }
 
+.second-error-fixer {
+  padding-bottom: 50px;
+  color: white;
+}
+
 /* Project detail pages */
 .project-hero-image {
   float: left;
@@ -416,6 +421,7 @@ a:focus {
       text-align: justify;
       font-style: italic;
       padding-bottom: 17%;
+
 }
 
 /* #button {

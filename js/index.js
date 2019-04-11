@@ -60,12 +60,214 @@ $(window).on('mousemove click', function(e) {
 
   var lMouseXone = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
   var lMouseYone = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowXone = (20 * lMouseXone) / 50; // 100 : 12 = lMouxeX : lFollow
-  lFollowYone = (10 * lMouseYone) / 100;
+  lFollowXone = (20 * lMouseXone) / 210; // 100 : 12 = lMouxeX : lFollow
+  lFollowYone = (10 * lMouseYone) / 210;
 
 });
 
 moveBackgroundOne();
+
+
+
+
+// home hero image layer two
+var lFollowXtwo = 0,
+    lFollowYtwo = 0,
+    xtwo = 0,
+    ytwo = 0,
+    frictiontwo = 1 / 30;
+
+function moveBackgroundTwo() {
+  xtwo += (lFollowXtwo - xtwo) * frictiontwo;
+  ytwo += (lFollowYtwo - ytwo) * frictiontwo;
+
+  translate = 'translate(' + xtwo + 'px, ' + ytwo + 'px) scale(1.1)';
+
+  $('.bg-two').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackgroundTwo);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseXtwo = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseYtwo = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowXtwo = (20 * lMouseXtwo) / 180; // 100 : 12 = lMouxeX : lFollow
+  lFollowYtwo = (10 * lMouseYtwo) / 180;
+
+});
+
+moveBackgroundTwo();
+
+
+
+// home hero image layer three
+var lFollowXthree = 0,
+    lFollowYthree = 0,
+    xthree = 0,
+    ythree = 0,
+    frictionthree = 1 / 30;
+
+function moveBackgroundThree() {
+  xthree += (lFollowXthree - xthree) * frictionthree;
+  ythree += (lFollowYthree - ythree) * frictionthree;
+
+  translate = 'translate(' + xthree + 'px, ' + ythree + 'px) scale(1.1)';
+
+  $('.bg-three').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackgroundThree);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseXthree = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseYthree = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowXthree = (20 * lMouseXthree) / 150; // 100 : 12 = lMouxeX : lFollow
+  lFollowYthree = (10 * lMouseYthree) / 150;
+
+});
+
+moveBackgroundThree();
+
+// home hero image layer three
+// var lFollowXthree = 0,
+//     lFollowYthree = 0,
+//     xthree = 0,
+//     ythree = 0,
+//     frictionthree = 1 / 30;
+//
+// function moveBackgroundThree() {
+//   xthree += (lFollowXthree - xthree) * frictionthree;
+//   ythree += (lFollowYthree - ythree) * frictionthree;
+//
+//   translate = 'translate(' + xthree + 'px, ' + ythree + 'px) scale(1.1)';
+//
+//   $('.bg-three').css({
+//     '-webit-transform': translate,
+//     '-moz-transform': translate,
+//     'transform': translate
+//   });
+//
+//   window.requestAnimationFrame(moveBackgroundThree);
+// }
+//
+// $(window).on('mousemove click', function(e) {
+//
+//   var lMouseXthree = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+//   var lMouseYthree = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+//   lFollowXthree = (20 * lMouseXthree) / 30; // 100 : 12 = lMouxeX : lFollow
+//   lFollowYthree = (10 * lMouseYthree) / 80;
+//
+// });
+
+
+// home hero image layer four
+var lFollowXfour = 0,
+    lFollowYfour = 0,
+    xfour = 0,
+    yfour = 0,
+    frictionfour = 1 / 30;
+
+function moveBackgroundFour() {
+  xfour += (lFollowXfour - xfour) * frictionfour;
+  yfour += (lFollowYfour - yfour) * frictionfour;
+
+  translate = 'translate(' + xfour + 'px, ' + yfour + 'px) scale(1.1)';
+
+  $('.bg-four').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackgroundFour);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseXfour = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseYfour = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowXfour = (20 * lMouseXfour) / 120; // 100 : 12 = lMouxeX : lFollow
+  lFollowYfour = (10 * lMouseYfour) / 120;
+
+});
+moveBackgroundFour();
+
+
+// home hero image layer five
+var lFollowXfive = 0,
+    lFollowYfive = 0,
+    xfive = 0,
+    yfive = 0,
+    frictionfive = 1 / 30;
+
+function moveBackgroundFive() {
+  xfive += (lFollowXfive - xfive) * frictionfive;
+  yfive += (lFollowYfive - yfive) * frictionfive;
+
+  translate = 'translate(' + xfive + 'px, ' + yfive + 'px) scale(1.1)';
+
+  $('.bg-five').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackgroundFive);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseXfive = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseYfive = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowXfive = (20 * lMouseXfive) / 90; // 100 : 12 = lMouxeX : lFollow
+  lFollowYfive = (10 * lMouseYfive) / 90;
+
+});
+moveBackgroundFive();
+
+
+// home hero image layer six
+var lFollowXsix = 0,
+    lFollowYsix = 0,
+    xsix = 0,
+    ysix = 0,
+    frictionsix = 1 / 30;
+
+function moveBackgroundSix() {
+  xsix += (lFollowXsix - xsix) * frictionsix;
+  ysix += (lFollowYsix - ysix) * frictionsix;
+
+  translate = 'translate(' + xsix + 'px, ' + ysix + 'px) scale(1.1)';
+
+  $('.bg-six').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackgroundSix);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseXsix = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseYsix = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowXsix = (20 * lMouseXsix) / 60; // 100 : 12 = lMouxeX : lFollow
+  lFollowYsix = (10 * lMouseYsix) / 60;
+
+});
+moveBackgroundSix();
+
 
 
 // scrolling skills div

@@ -49,7 +49,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: -1;
-  background: url("https://gdurl.com/JHFu") no-repeat center center;
+  background: url("https://gdurl.com/VIsd") no-repeat center center;
   background-size: cover;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -63,6 +63,73 @@ h1 {
   left: 0;
   z-index: -1;
   background: url("https://gdurl.com/5D_G") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.wrap .bg-two {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://gdurl.com/5Pv6") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.wrap .bg-three {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://gdurl.com/PmKB") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.wrap .bg-four {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://gdurl.com/TZoN") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.wrap .bg-five {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://gdurl.com/FVld") no-repeat center center;
+  background-size: cover;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.wrap .bg-six {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("https://gdurl.com/9C9C") no-repeat center center;
   background-size: cover;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);

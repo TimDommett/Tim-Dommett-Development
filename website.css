@@ -220,8 +220,7 @@ p {
   position: absolute;
   /* top: 112%; */
   padding-bottom: 68px;
-  /* left: 47%; */
-  text-align: center;
+  left: 56%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

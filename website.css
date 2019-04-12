@@ -85,6 +85,7 @@ p {
   float: left;
   width: 40%;
   padding: 2.5%;
+  border-radius: 50px;
 }
 
 .project-detail-title {

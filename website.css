@@ -110,6 +110,8 @@ p {
 
 .detail-links-container {
   display: absolute;
+  display: flex;
+  justify-content: center;
 }
 /* Move into transitions.css */
 

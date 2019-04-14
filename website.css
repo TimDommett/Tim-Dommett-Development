@@ -107,6 +107,10 @@ p {
   padding-right: 10%;
 
 }
+
+.detail-links-container {
+  display: absolute;
+}
 /* Move into transitions.css */
 
 .fade-in {
@@ -221,6 +225,10 @@ p {
   /* top: 112%; */
   padding-bottom: 68px;
   left: 56%;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> 1325d061af638757534562dc8d6be81842f793c6
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
